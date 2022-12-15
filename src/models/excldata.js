@@ -4,7 +4,7 @@ const { ObjectId } = mongoose.Schema.Types;
 const resourceSchema = new mongoose.Schema({
     Name:{
         type: String
-    },
+    }, 
     Email:{
         type: String
     },
